@@ -1,7 +1,7 @@
 package store.wckd.paymentservice.converter;
 
 import org.modelmapper.AbstractConverter;
-import store.wckd.commons.paymentservice.enumeration.AutoReturn;
+import store.wckd.commons.enumeration.AutoReturn;
 
 public class AutoReturnToStringConverter extends AbstractConverter<AutoReturn, String> {
     @Override

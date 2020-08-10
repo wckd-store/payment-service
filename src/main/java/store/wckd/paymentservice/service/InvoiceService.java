@@ -2,8 +2,8 @@ package store.wckd.paymentservice.service;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import store.wckd.commons.paymentservice.dto.invoice.create.InvoiceCreateRequestDTO;
-import store.wckd.commons.paymentservice.dto.invoice.create.InvoiceCreateResponseDTO;
+import store.wckd.commons.dto.invoice.InvoiceCreateRequestDTO;
+import store.wckd.commons.dto.invoice.InvoiceCreateResponseDTO;
 import store.wckd.paymentservice.factory.InvoiceRequestDataFactory;
 import store.wckd.paymentservice.model.invoice.data.InvoiceRequestData;
 

@@ -1,7 +1,7 @@
 package store.wckd.paymentservice.exception;
 
 import lombok.Getter;
-import store.wckd.commons.paymentservice.enumeration.PaymentGateway;
+import store.wckd.commons.enumeration.PaymentGateway;
 
 @Getter
 public class UnsupportedGatewayException extends RuntimeException {

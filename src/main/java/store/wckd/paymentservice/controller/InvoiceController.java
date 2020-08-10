@@ -4,8 +4,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import store.wckd.commons.paymentservice.dto.invoice.create.InvoiceCreateRequestDTO;
-import store.wckd.commons.paymentservice.dto.invoice.create.InvoiceCreateResponseDTO;
+import store.wckd.commons.dto.invoice.InvoiceCreateRequestDTO;
+import store.wckd.commons.dto.invoice.InvoiceCreateResponseDTO;
 import store.wckd.paymentservice.service.InvoiceService;
 
 import javax.validation.Valid;

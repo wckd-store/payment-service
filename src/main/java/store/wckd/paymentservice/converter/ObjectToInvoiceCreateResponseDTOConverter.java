@@ -3,7 +3,7 @@ package store.wckd.paymentservice.converter;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.AbstractConverter;
 import org.modelmapper.ModelMapper;
-import store.wckd.commons.paymentservice.dto.invoice.create.InvoiceCreateResponseDTO;
+import store.wckd.commons.dto.invoice.InvoiceCreateResponseDTO;
 import store.wckd.paymentservice.model.invoice.body.mercadopago.MPInvoiceResponseBody;
 
 @RequiredArgsConstructor

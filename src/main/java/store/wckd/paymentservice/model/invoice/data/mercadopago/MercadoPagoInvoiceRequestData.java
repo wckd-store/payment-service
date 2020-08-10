@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
-import store.wckd.commons.paymentservice.dto.invoice.create.InvoiceCreateRequestDTO;
+import store.wckd.commons.dto.invoice.InvoiceCreateRequestDTO;
 import store.wckd.paymentservice.model.invoice.body.mercadopago.MPInvoiceRequestBody;
 import store.wckd.paymentservice.model.invoice.body.mercadopago.MPInvoiceResponseBody;
 import store.wckd.paymentservice.model.invoice.data.InvoiceRequestData;
