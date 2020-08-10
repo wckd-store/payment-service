@@ -27,7 +27,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
 
-    implementation 'com.github.wckd-store:commons:fc4185f1d5'
+    implementation 'com.github.wckd-store:commons:89e8b8b245'
+    implementation 'org.modelmapper:modelmapper:2.3.0'
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
